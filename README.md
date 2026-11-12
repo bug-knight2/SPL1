@@ -112,10 +112,3 @@ Slides (`.svs`) and generated output folders are not stored in this repository (
 ## Planned final feature vector
 
 For each tile, the outputs of all five methods will be concatenated into a single vector (LBP + GLCM + Gabor + HOG + Wavelet) to give a compact numerical representation of its texture and morphology for downstream classification.
-
-## Third-party code
-
-- [OpenSlide](https://openslide.org/): reading `.svs` files only.
-- [stb_image_write.h](https://github.com/nothings/stb): writing PNG files only.
-
-All feature-extraction logic (LBP, Gabor, and the upcoming methods) is written from scratch.
